@@ -1,0 +1,36 @@
+To do:
+
+Angles 
+- write sine and cosine functions
+- Map where the ball hits on the paddle to the deflection 
+- randomize the angle at which the ball goes off at 
+
+Gameplay
+- add score count 
+- make computer controlled paddle able to lose -> this involves making it slower so to some points it doesn't reach the ball on time 
+- possibly speed up the ball the longer the game has been played  
+
+Graphics 
+- work on clear paddle to help with glitching -> General idea is to not clear the whole paddle but clear the small part from where paddle has moved  
+- work on ball hitting paddle function -> I don;t think it necessarily works at all times 
+- make continue screen look nicer 
+- make game overall look nicer (colors and all) --> this is the last thing --> we can even make our own colors, we don't need to use only the ones defined in the header  
+
+Button
+- Matt suggested having a zeroing button 
+- the idea is you're moving the paddle, when you press the button, the paddle goes back to the center 
+- So it's a quick way to get back to the center and may help with paddle control
+
+Paddle
+- make paddle movement more controlled -> better map gyroscope angles to movement 
+- I found that the gyroscope angles generally range from -20 to 20 (I don't know if this helps... but 20 is like max deflection based on the way I calculate the angle)
+
+Hardware
+- longer cable for paddle?
+- box for paddle 
+
+General
+- fix up code -> can do this on Monday
+- add comments to header files and all files really to make code cleander and more readable
+
+
